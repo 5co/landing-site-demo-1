@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b05f5b9.chunk.css",
+    "main.js": "/static/js/main.eb0a3381.chunk.js",
+    "main.js.map": "/static/js/main.eb0a3381.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.566c4248.js",
+    "runtime-main.js.map": "/static/js/runtime-main.566c4248.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.640de764.chunk.js": "/static/js/2.640de764.chunk.js",
+    "static/js/2.640de764.chunk.js.map": "/static/js/2.640de764.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.961469475370cb11c760d8fdfab15674.js": "/precache-manifest.961469475370cb11c760d8fdfab15674.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5dbdccff.chunk.css.map": "/static/css/2.5dbdccff.chunk.css.map",
+    "static/css/main.9b05f5b9.chunk.css.map": "/static/css/main.9b05f5b9.chunk.css.map",
+    "static/js/2.640de764.chunk.js.LICENSE.txt": "/static/js/2.640de764.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Brown-Regular.456fa5f2.ttf",
+    "static/media/FogWrapper.scss": "/static/media/clouds.70c63884.png",
+    "static/media/logo.svg": "/static/media/logo.252f12f9.svg",
+    "static/media/WallpaperWrapper.scss": "/static/media/mountain.0e928193.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.566c4248.js",
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.640de764.chunk.js",
+    "static/css/main.9b05f5b9.chunk.css",
+    "static/js/main.eb0a3381.chunk.js"
+  ]
+}
