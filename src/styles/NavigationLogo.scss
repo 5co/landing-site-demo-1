@@ -1,0 +1,32 @@
+.navigation-logo {
+  img {
+    height: auto;
+    width: 15vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation-logo {
+    position: relative;
+    img {
+      position: fixed;
+      z-index: 20;
+      left: 2vw;
+      top: 2vh;
+      padding: 0;
+      margin: 0;
+      // position: absolute;
+
+      height: auto;
+      width: 50vw;
+    }
+  }
+
+  footer {
+    .navigation-logo img {
+      position: relative;
+    }
+  }
+
+
+}

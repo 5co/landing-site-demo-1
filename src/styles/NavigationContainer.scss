@@ -1,0 +1,29 @@
+#navigation-container {
+  position: fixed;
+  right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #navigation-container {
+    transition: 1s;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    position: fixed;
+    padding-top: 30%;
+    top: 0;
+    a {
+      visibility: hidden;
+      transition: 0.2s;
+      color: whitesmoke;
+    }
+    &.active {
+      background-color: #242424bc;
+      visibility: visible;
+      a {
+        visibility: visible;
+      }
+    }
+  }
+}

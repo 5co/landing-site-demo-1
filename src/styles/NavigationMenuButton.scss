@@ -1,0 +1,34 @@
+#navigation-menu-button {
+  display: none;
+  #navigation-menu-button-inner {
+    min-height: 10vh;
+    border-radius: 50vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #navigation-menu-button {
+    display: block;
+    position: relative;
+    #navigation-menu-button-inner {
+      position: fixed;
+      right: 2vw;
+      top: 2vh;
+      z-index: 100;
+      // background: url("./../assets/images/favicon.png");
+      background-color: transparent;
+      font-size: 10vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      min-height: 10vh;
+      min-width: 20vw;
+      border-radius: 50vw;
+      border: none;
+      transition: 0.5s;
+
+      &.clicked {
+        transform: rotate(-360deg);
+      }
+    }
+  }
+}

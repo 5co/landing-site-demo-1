@@ -1,0 +1,34 @@
+.musteri {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+  img {
+    height: auto;
+    width: 50%;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .musteri {
+    width: 80%;
+    padding-top: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: auto;
+      width: 50%;
+      transition: 0.2s;
+
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+}

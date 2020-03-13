@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  min-height: 5vh;
+  // flex: content;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
