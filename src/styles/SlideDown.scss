@@ -1,0 +1,21 @@
+#slide-down {
+  display: flex;
+  position: relative;
+  top: 80vh;
+  justify-content: center;
+
+  #slide-down-icon {
+    z-index: -2 !important;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  #slide-down {
+    top:85vh;
+    #slide-down-icon {
+      z-index: -1 !important;
+      display: none;
+    }
+  }
+}

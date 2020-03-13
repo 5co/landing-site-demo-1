@@ -1,0 +1,27 @@
+.surec-title {
+    font-size: 6vw;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: brown-bold;
+    font-weight: bold;
+    
+    .surec-title-black {
+        color: #353535;
+    }
+    .surec-title-red {
+        color: #ef5353;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+
+    .surec-title {
+        font-size: 8vw;
+    }
+
+
+}
