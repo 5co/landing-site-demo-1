@@ -1,1 +1,1 @@
-# [DEMO](https://selimcanozdemir.github.io/landing-site-demo-1/)
+# [DEMO](https://beyz64.github.io/landing-site-demo-1/)
